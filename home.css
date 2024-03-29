@@ -90,3 +90,67 @@ nav .joinnow {
 nav .joinnow:hover {
   background-color: rgba(0, 0, 0, 0.7);
 }
+
+main {
+  width: 100%;
+  margin: 0 auto;
+  padding: 32px 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+}
+
+/*Section one*/
+section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+}
+
+section img {
+  width: 100%;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-eight);
+}
+
+.container1 h1 {
+  font-size: 50px;
+  width: 517px;
+  text-align: center;
+  color: var(--color-fifth);
+}
+
+.container1 p {
+  width: 525px;
+  font-size: 25px;
+  text-align: center;
+  color: var(--color-fifth);
+  margin-top: 0;
+}
+
+.container1 a {
+  color: var(--color-fifth);
+  min-width: 35px;
+  min-height: 35px;
+  border: 1px solid var(--color-secondary);
+  border-radius: 50px;
+  padding: 0.5px 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: 0.3s all;
+  background-color: transparent;
+}
+
+.container1 a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
