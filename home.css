@@ -11,6 +11,7 @@
   --color-eight: #dbe6f2;
   --color-ninth: #d5d0ea;
   --color-tenth: #cee8c9;
+  --color-eleventh: #f2f0eb;
 }
 
 body {
@@ -104,7 +105,7 @@ main {
   gap: 32px;
 }
 
-/*Section one*/
+/*Sections*/
 section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -129,6 +130,32 @@ section img {
 
 .sectionthird .container1 {
   background-color: var(--color-tenth);
+}
+
+.sectionfourth .container1 {
+  background-color: var(--color-eleventh);
+}
+
+.sectionfourth .container1 h2 {
+  color: var(--color-secondary);
+  margin-bottom: 30px;
+}
+
+.sectionfourth .container1 p {
+  color: var(--color-secondary);
+  font-size: 19px;
+  line-height: 1.7;
+}
+
+.sectionfourth .container1 a {
+  background-color: var(--color-fifth);
+  border-color: var(--color-fifth);
+  color: var(--color-primary);
+  font-weight: 500;
+}
+
+.sectionfourth .container1 a:hover {
+  background-color: rgba(30, 57, 50, 0.904);
 }
 
 .container1 h1 {
