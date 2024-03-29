@@ -121,23 +121,29 @@ section img {
 
 .container1 h1 {
   font-size: 50px;
+  font-weight: 600;
   width: 517px;
   text-align: center;
   color: var(--color-fifth);
+  margin: 20px;
+  letter-spacing: 2px;
+  line-height: 1.2;
 }
 
 .container1 p {
-  width: 525px;
-  font-size: 25px;
+  width: 527px;
+  font-size: 24px;
   text-align: center;
   color: var(--color-fifth);
   margin-top: 0;
+  line-height: 1.4;
 }
 
 .container1 a {
   color: var(--color-fifth);
   min-width: 35px;
   min-height: 35px;
+  margin-top: 10px;
   border: 1px solid var(--color-secondary);
   border-radius: 50px;
   padding: 0.5px 16px;
