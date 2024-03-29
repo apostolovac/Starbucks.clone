@@ -163,6 +163,30 @@ section img {
   background-color: var(--color-twelfth);
 }
 
+.sectionsixth .container1 {
+  background-color: var(--color-third);
+}
+
+.sectionsixth .container1 h2 {
+  color: var(--color-primary);
+  margin-bottom: 30px;
+}
+
+.sectionsixth .container1 p {
+  color: var(--color-primary);
+  font-size: 19px;
+}
+
+.sectionsixth .container1 .parag {
+  margin-bottom: 30px;
+}
+
+.sectionsixth .container1 a {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  font-weight: 500;
+}
+
 .container1 h1 {
   font-size: 50px;
   font-weight: 600;
@@ -181,7 +205,7 @@ section img {
   text-align: center;
   color: var(--color-fifth);
   margin-top: 0;
-  line-height: 1.5;
+  line-height: 1.8;
 }
 
 .container1 a {
