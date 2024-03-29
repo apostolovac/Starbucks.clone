@@ -229,3 +229,29 @@ section img {
 .container1 a:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
+
+.sectionseventh {
+  display: block;
+}
+
+.sectionseventh .info {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.sectionseventh .info p {
+  width: 700px;
+  height: 101px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.sectionseventh .info p a {
+  color: var(--color-secondary);
+}
+
+.sectionseventh .info p a:hover {
+  text-decoration: none;
+}
