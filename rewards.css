@@ -264,3 +264,101 @@ ol .list2 {
 ol .list3 {
   margin: 0 0 0 24px;
 }
+
+.container2 {
+  padding: 48px 0 0 0;
+  margin: 64px 0;
+  background-color: #d3e8e154;
+  text-align: center;
+}
+
+.content2 {
+  padding: 0 16px;
+}
+
+.content2 h2 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.385;
+  padding: 0 0 48px 0;
+  margin: 0;
+}
+
+.tablist ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  max-width: 540px;
+  width: 100%;
+  height: 60px;
+  position: relative;
+  margin: 0 auto 0 auto;
+  list-style-type: none;
+}
+
+.tablist ul li {
+  width: 100%;
+  position: relative;
+  padding: 8px 8px 21px 8px;
+}
+
+.tablist ul li span {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.tablist ul li .star {
+  font-size: 16px;
+  color: #cba258;
+}
+
+.underline {
+  background: var(--color-fourth);
+  bottom: 0;
+  height: 4px;
+  left: 0;
+  position: absolute;
+  display: block;
+  width: 100%;
+}
+
+.coffee-image {
+  background-color: #d4e9e2;
+  background-image: url(https://www.starbucks.com/weblx/images/rewards/reward-tiers/25.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  width: 375px;
+  height: 211px;
+  padding: 0;
+  margin: 0 48px 0 0;
+}
+
+.coffee-text {
+  max-width: 375px;
+  padding: 0 16px;
+}
+
+.coffee-text h3 {
+  text-align: left;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 0 0 16px 0;
+  margin: 0;
+}
+
+.coffee-text p {
+  margin: 0;
+  text-align: left;
+}
+
+.drink {
+  background-color: #d4e9e2;
+  box-shadow: inset 0 7px 9px -7px #00000024;
+  padding: 32px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
