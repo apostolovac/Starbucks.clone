@@ -676,3 +676,28 @@ hr {
   color: var(--color-primary);
   margin-bottom: 8px;
 }
+
+.questions {
+  padding: 64px 40px;
+  width: 50%;
+  margin-left: 16.66667%;
+}
+
+.questions h2 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.385;
+  padding: 0 0 16px 0;
+  margin: 0;
+}
+
+.questions p {
+  padding: 0 0 16px 0;
+  margin: 0;
+}
+
+.questions p a {
+  display: inline-flex;
+  align-items: center;
+  color: var(--color-third);
+}
