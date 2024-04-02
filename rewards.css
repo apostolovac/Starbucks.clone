@@ -456,3 +456,98 @@ ol .list3 {
   text-decoration: underline;
   font-size: 16px;
 }
+
+.container4 {
+  margin: 64px 0 0 0;
+  padding: 48px 40px;
+  background-color: #f2f0eb;
+}
+
+.content4 {
+  width: 50%;
+  padding: 0 0 64px 0;
+  margin-left: 25%;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.content4 h2 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.385;
+  padding: 0 0 16px 0;
+  margin: 0;
+}
+
+.content4 p {
+  margin: 0;
+}
+
+.griditems {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.griditems .grid {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: left;
+  vertical-align: top;
+}
+
+.griditems .grid1 {
+  width: 16.6%;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.griditems .grid1 h2 {
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0;
+  text-align: left;
+}
+
+.grid1 .star {
+  font-size: 19px;
+  color: var(--color-secondary);
+}
+
+.griditems .grid1 p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.griditems .grid p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.griditems .grid2 {
+  width: 33.3%;
+  padding: 0 24px;
+  display: flex;
+}
+
+.griditems .grid3 {
+  width: 33.3%;
+  padding: 0 24px;
+  display: flex;
+}
+
+hr {
+  margin: 24px 0 48px 0;
+}
+
+
+.grid-image {
+  max-width: 128px;
+  padding: 0 16px 0 0;
+  text-align: center;
+  margin: 0;
+}
