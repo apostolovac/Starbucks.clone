@@ -700,4 +700,120 @@ hr {
   display: inline-flex;
   align-items: center;
   color: var(--color-third);
+  font-size: 15.5px;
+}
+
+.terms {
+  margin: 32px 0 48px 0;
+  padding: 48px 40px;
+  background-color: #f9f9f9;
+  display: block;
+  text-align: left;
+}
+
+.terms .text1 {
+  font-size: 14px;
+  text-align: left;
+  padding-bottom: 16px;
+  letter-spacing: -0.01em;
+  line-height: 1.5;
+}
+
+.terms .text1 p {
+  padding-bottom: 8px;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+.terms .text1 p .span {
+  color: var(--color-third);
+}
+
+.terms .text1 p a .valign-middle {
+  vertical-align: top;
+}
+
+.terms .text1 .arrow {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.terms .flex-card1 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: left;
+  vertical-align: top;
+  width: 50%;
+  padding-bottom: 32px;
+}
+
+.terms .flex-card2 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: left;
+  vertical-align: top;
+  width: 50%;
+  padding-bottom: 32px;
+  padding-left: 32px;
+}
+
+.terms .flex-card3 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: left;
+  vertical-align: top;
+  width: 50%;
+}
+
+.terms .flex-card4 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: left;
+  vertical-align: top;
+  width: 50%;
+  padding-bottom: 0;
+  padding-left: 32px;
+}
+
+.flex h3 {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
+  padding-bottom: 16px;
+  margin: 0;
+  color: #00000094;
+  text-align: left;
+}
+
+.flex p {
+  font-size: 14px;
+  margin: 0;
+  text-align: left;
+  letter-spacing: -0.01em;
+  line-height: 1.5;
+}
+
+.flex .parag {
+  padding-bottom: 16px;
+  margin: 0;
+}
+
+.flex p a {
+  color: var(--color-third);
+}
+
+.flex p a svg {
+  vertical-align: top;
 }
